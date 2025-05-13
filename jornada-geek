@@ -1,0 +1,55 @@
+/jornada-geek
+│
+├── index.html
+├── style.css
+├── /assets
+│   └── logo.png  ← (adicione sua logo aqui com o mesmo nome)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jornada Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jornada Geek</h1>
+        <p>Notícias sobre tecnologia, jogos e cultura nerd!</p>
+    </header>
+    <section>
+        <h2>Últimas Notícias</h2>
+        <article>
+            <h3>Como o Escotismo se Conecta com a Cultura Geek?</h3>
+            <p>Descubra os valores compartilhados entre heróis e escoteiros.</p>
+        </article>
+    </section>
+    <footer>
+        <p>© 2024 Jornada Geek</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background: #6E40C9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
