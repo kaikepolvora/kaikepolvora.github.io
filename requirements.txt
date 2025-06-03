@@ -1,0 +1,4 @@
+Flask==2.2.2
+python-dotenv==0.20.0
+Werkzeug==2.2.2
+# Adicionar outras dependências conforme necessário, ex: Flask-SQLAlchemy, Flask-Migrate, Flask-WTF, Flask-Login, PyJWT, passlib
